@@ -2,6 +2,7 @@ import streamlit as st
 import base64
 import mimetypes
 import google.generativeai as genai
+import os
 
 # Configure the Gemini API key
 api_key = "AIzaSyBrQemIQoAT6gZLI7pvuV-mmM6OZXATbE8"
@@ -40,6 +41,21 @@ def process_image_gemini(image_path, prompt, model_name='gemini-1.5-flash'):
     except Exception as e:
         return f"An error occurred with image {os.path.basename(image_path)}: {e}"
 
+# Function to send text prompt to Gemini API
+def process_text_gemini(prompt, model_name='gemini-1.5-flash'):
+    # Create model instance
+    model = genai.GenerativeModel(model_name)
+
+    # Generate content
+    try:
+        response = model.generate_content(
+            [prompt],
+            generation_config={"response_mime_type": "application/json"}
+        )
+        return response.text
+    except Exception as e:
+        return f"An error occurred: {e}"
+
 # Initialize the system message
 system_message = """
 """
@@ -64,14 +80,19 @@ if st.button("Send"):
     if not user_prompt and not uploaded_file:
         st.write("Please provide a text input, an image, or both.")
     else:
-        if uploaded_file:
+        if uploaded_file and user_prompt:
             # Save the uploaded file temporarily
             with open("temp_image.png", "wb") as f:
                 f.write(uploaded_file.getbuffer())
             prompt = f"{system_message}\n{user_prompt}"
             response = process_image_gemini("temp_image.png", prompt)
+        elif uploaded_file:
+            # Save the uploaded file temporarily
+            with open("temp_image.png", "wb") as f:
+                f.write(uploaded_file.getbuffer())
+            response = process_image_gemini("temp_image.png", system_message)
         else:
-            response = user_prompt
+            response = process_text_gemini(f"{system_message}\n{user_prompt}")
 
         if user_prompt:
             st.markdown(f"**You:** {user_prompt}")
