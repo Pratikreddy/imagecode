@@ -108,11 +108,14 @@ def send_message():
             st.session_state.chat_history.append({"role": "user", "content": f"Image: {uploaded_file.name}"})
 
         # Extracting relevant content from the response
-        if isinstance(response, str):
-            st.session_state.chat_history.append({"role": "assistant", "content": response})
-        else:
-            message_content = response.result['candidates'][0]['content']['parts'][0]['text']
-            st.session_state.chat_history.append({"role": "assistant", "content": message_content})
+        try:
+            if isinstance(response, str):
+                st.session_state.chat_history.append({"role": "assistant", "content": response})
+            else:
+                message_content = response.result.candidates[0].content.parts[0].text
+                st.session_state.chat_history.append({"role": "assistant", "content": message_content})
+        except Exception as e:
+            st.session_state.chat_history.append({"role": "assistant", "content": f"An error occurred: {e}"})
 
         st.session_state.input_buffer = ""
 
