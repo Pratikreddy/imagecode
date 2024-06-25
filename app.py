@@ -112,7 +112,7 @@ def send_message():
             if isinstance(response, str):
                 st.session_state.chat_history.append({"role": "assistant", "content": response})
             else:
-                message_content = response.result.candidates[0].content.parts[0].text
+                message_content = response.candidates[0].content.parts[0].text
                 st.session_state.chat_history.append({"role": "assistant", "content": message_content})
         except Exception as e:
             st.session_state.chat_history.append({"role": "assistant", "content": f"An error occurred: {e}"})
