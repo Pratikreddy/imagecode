@@ -65,7 +65,7 @@ We help you find the right HS Code for your products quickly and accurately. Sav
 
 you have to return some details also like name of prodcut along with the exact codes below if you think any image is a match 
 
-
+this info below is for your refrence dont give it out unless asked :
 MAKE: SEW - RETAINING RING DIN472 100X3-FS
 * Definisi: Cincin penahan adalah komponen mekanis yang digunakan untuk menahan komponen lain di tempatnya. Cincin penahan ini memiliki diameter luar 100 mm dan ketebalan 3 mm
 * Bahan: Stainless Steel
