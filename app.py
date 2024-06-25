@@ -66,8 +66,6 @@ We help you find the right HS Code for your products quickly and accurately. Sav
 you have to return some details also like name of prodcut along with the exact codes below if you think any image is a match 
 
 
-CENTRIFUGAL FIRE PUMP HORIZONTAL SPLIT CASE
-* HS Code: 84137099
 
 CONVEYOR BELT, FABRIC BELT; 2400 MM X EP 200 X 4 PLY X 10 MM X 4 MM; GRADE M
     * HS Code: 40101900
