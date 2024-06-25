@@ -65,65 +65,33 @@ We help you find the right HS Code for your products quickly and accurately. Sav
 
 Product List:
 CENTRIFUGAL FIRE PUMP HORIZONTAL SPLIT CASE
-* Definisi: Pompa pemadam kebakaran yang menggunakan prinsip sentrifugal untuk memompa air, dan memiliki desain casing yang dapat dibuka secara horizontal
-* Bahan: Besi Baja / Logam
 * HS Code: 84137099
 
 CONVEYOR BELT, FABRIC BELT; 2400 MM X EP 200 X 4 PLY X 10 MM X 4 MM; GRADE M
-* Definisi: sabuk konveyor kain dengan spesifikasi sebagai berikut:
-    * Lebar: 2400 milimeter (2,4 meter)
-    * Ketebalan: 10 milimeter
-    * Ketebalan lapisan kain: 4 milimeter
-    * Jumlah lapisan kain: 4
-    * Kekuatan tarik: EP 200
-    * Kelas: M
-    * Bahan: Serat Polyester (EP)
     * HS Code: 40101900
 
 M12 x 120mm Lg Hex Hd HT Bolt BZP
-* Definisi: Baut kepala heksagonal besar dengan kekuatan tarik tinggi dan lapisan seng cerah, yang biasa digunakan dalam berbagai aplikasi industri dan konstruksi
-    * M12: Ini mengacu pada diameter ulir metrik baut, yang dalam hal ini adalah 12 milimeter
-    * 120mm: Ini menunjukkan panjang baut, yaitu 120 milimeter
-    * Lg Hex Hd: Ini adalah singkatan dari "Large Hex Head," yang berarti baut memiliki kepala heksagonal besar untuk dikencangkan dengan kunci pas
-* Bahan: Bright Zinc Plated
 * HS Code: 73181510
 
 Bolt (M27X260X30)
-* Definisi: baut heksagonal berkekuatan tinggi dengan diameter ulir metrik 27 milimeter, panjang 260 milimeter, dan tinggi kepala 30 milimeter. Baut ini umumnya digunakan dalam aplikasi industri di mana kekuatan dan keandalan tinggi
-    * M27: Ini mengacu pada diameter ulir metrik baut, yaitu 27 milimeter
-    * 260: Ini menunjukkan panjang baut, yaitu 260 milimeter
-    * 30: Ini menentukan tinggi kepala baut, yaitu 30 milimeter
-* Bahan: Bright Zinc Plated
 * HS Code: 73181590
 
 MAKE: SEW - RETAINING RING DIN472 100X3-FS
-* Definisi: Cincin penahan adalah komponen mekanis yang digunakan untuk menahan komponen lain di tempatnya. Cincin penahan ini memiliki diameter luar 100 mm dan ketebalan 3 mm
-* Bahan: Stainless Steel
 * HS Code: 73182100
 
 CRUSHER SP; OIL RETAINING RING; DW NO:27-02 0861/B; PN:07; TYPE: ESC-584; EQU: COAL CRUSHER SCOOP COUPLING; OEM: ELECON
-* Definisi: Cincin penahan oli yang digunakan pada sekop penyapu crusher batu bara. Cincin penahan ini berfungsi untuk menahan oli agar tidak bocor dari sekop penyapu. Cincin penahan ini memiliki diameter luar 100 mm dan ketebalan 3 mm
-* Bahan: Stainless Steel
 * HS Code: 73182100
 
 CLAMP, C: 4IN FORGED ULTRA STRONG DROP STEEL CLAMP BAR TYPE; DAWN; JAW OPENING 100MM; THROAT DEPTH 60MM
-* Definisi: Klem batang baja cor tipe C yang kuat. Klem ini memiliki panjang 4 inci dan memiliki rahang yang dapat dibuka hingga 100 mm. Klem ini terbuat dari baja cor dan memiliki lapisan krom untuk melindunginya dari karat.
-* Bahan: Stainless Steel
 * HS Code: 73194020
 
 CONVEYOR BELT TYPE: 2200 EP 630/4 6+3 Y ME BELT CONVEYOR BELT CONVEYOR EP630/4 2200MM, 6+3MM COVER, DIN Y GRADE; 151MT/ROLL 711016770 231561
-* Definisi: Sabuk konveyor tipe EP630/4 dengan lebar 2200 mm, ketebalan cover 6+3 mm, dan grade DIN Y. Sabuk konveyor ini terbuat dari bahan polyester dan memiliki lapisan karet. Sabuk konveyor ini dapat menahan beban hingga 630 kg/m.
-* Bahan: Polyester
 * HS Code: 40101200
 
 LUBRICATION FITTING ASSORTMENT: AUTOMOTIVE HYDRAULIC GREASE NIPPLE; 12 SIZES: SAE, ANF, BSP, METRIC, BSF
-* Definisi: Set alat yang digunakan untuk melumasi komponen-komponen otomotif. Set alat ini terdiri dari 12 ukuran nipple pelumas yang berbeda, termasuk ukuran SAE, ANF, BSP, metrik, dan BSF.
-* Bahan: -
 * HS Code: 73079910
 
 STUD, RECESSED: THREADED BOTH END; 900MM LENGTH; C/W 4 EACH M42 NUTS; USED ON ELECTROMAGNETIC VIBRATORY MODEL FV890 EQ 2482
-* Definisi: Sebuah baut panjang berulir khusus yang digunakan pada alat getar elektromagnetik model FV890 dengan kode komponen EQ 2482.
-* Bahan: Polyester
 * HS Code: 40101200
 
 HS CODE - 84749000
