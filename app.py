@@ -26,10 +26,7 @@ def process_image_gemini(image_path, prompt, model_name='gemini-1.5-flash'):
     }
 
     # Prepare content
-    content = [
-        {"type": "text", "text": prompt},
-        {"type": "blob", "mime_type": image_data['mime_type'], "data": image_data['data']}
-    ]
+    content = [prompt, image_data]
 
     # Create model instance
     model = genai.GenerativeModel(model_name)
@@ -52,7 +49,7 @@ def process_text_gemini(prompt, model_name='gemini-1.5-flash'):
     # Generate content
     try:
         response = model.generate_content(
-            [{"type": "text", "text": prompt}],
+            [prompt],
             generation_config={"response_mime_type": "application/json"}
         )
         return response
