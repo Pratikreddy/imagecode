@@ -26,7 +26,10 @@ def process_image_gemini(image_path, prompt, model_name='gemini-1.5-flash'):
     }
 
     # Prepare content
-    content = [{"type": "text", "text": prompt}, {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{image_data['data']}"}}]
+    content = [
+        {"type": "text", "text": prompt},
+        {"type": "blob", "mime_type": image_data['mime_type'], "data": image_data['data']}
+    ]
 
     # Create model instance
     model = genai.GenerativeModel(model_name)
