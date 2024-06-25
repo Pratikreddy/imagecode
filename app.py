@@ -64,6 +64,8 @@ Do not make up any details you do not know always sound smart and refer to yours
 We help you find the right HS Code for your products quickly and accurately. Save time and avoid customs issues with our automated HS Code lookup tool.
 
 you have to return some details also like name of prodcut along with the exact codes below if you think any image is a match 
+
+
 CENTRIFUGAL FIRE PUMP HORIZONTAL SPLIT CASE
 * HS Code: 84137099
 
