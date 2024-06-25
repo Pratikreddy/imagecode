@@ -26,7 +26,7 @@ def process_image_gemini(image_path, prompt, model_name='gemini-1.5-flash'):
     }
 
     # Prepare content
-    content = [prompt, image_data]
+    content = [{"type": "text", "text": prompt}, {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{image_data['data']}"}}]
 
     # Create model instance
     model = genai.GenerativeModel(model_name)
@@ -37,7 +37,7 @@ def process_image_gemini(image_path, prompt, model_name='gemini-1.5-flash'):
             content,
             generation_config={"response_mime_type": "application/json"}
         )
-        return response.text
+        return response
     except Exception as e:
         return f"An error occurred with image {os.path.basename(image_path)}: {e}"
 
@@ -49,10 +49,10 @@ def process_text_gemini(prompt, model_name='gemini-1.5-flash'):
     # Generate content
     try:
         response = model.generate_content(
-            [prompt],
+            [{"type": "text", "text": prompt}],
             generation_config={"response_mime_type": "application/json"}
         )
-        return response.text
+        return response
     except Exception as e:
         return f"An error occurred: {e}"
 
