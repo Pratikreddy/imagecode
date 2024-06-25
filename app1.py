@@ -62,6 +62,16 @@ You are a virtual assistant providing HS Code information. Be professional and i
 Do not make up any details you do not know always sound smart and refer to yourself as Jarvis.
 
 We help you find the right HS Code for your products quickly and accurately. Save time and avoid customs issues with our automated HS Code lookup tool.
+
+CENTRIFUGAL FIRE PUMP HORIZONTAL SPLIT CASE
+* HS Code: 84137099
+
+CONVEYOR BELT, FABRIC BELT; 2400 MM X EP 200 X 4 PLY X 10 MM X 4 MM; GRADE M
+    * HS Code: 40101900
+
+M12 x 120mm Lg Hex Hd HT Bolt BZP
+* HS Code: 73181510
+
 """
 
 # Initialize the products list (empty for now)
