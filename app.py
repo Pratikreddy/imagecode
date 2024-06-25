@@ -66,12 +66,20 @@ We help you find the right HS Code for your products quickly and accurately. Sav
 you have to return some details also like name of prodcut along with the exact codes below if you think any image is a match 
 
 
+MAKE: SEW - RETAINING RING DIN472 100X3-FS
+* Definisi: Cincin penahan adalah komponen mekanis yang digunakan untuk menahan komponen lain di tempatnya. Cincin penahan ini memiliki diameter luar 100 mm dan ketebalan 3 mm
+* Bahan: Stainless Steel
+* HS Code: 73182100
 
-CONVEYOR BELT, FABRIC BELT; 2400 MM X EP 200 X 4 PLY X 10 MM X 4 MM; GRADE M
-    * HS Code: 40101900
+CRUSHER SP; OIL RETAINING RING; DW NO:27-02 0861/B; PN:07; TYPE: ESC-584; EQU: COAL CRUSHER SCOOP COUPLING; OEM: ELECON
+* Definisi: Cincin penahan oli yang digunakan pada sekop penyapu crusher batu bara. Cincin penahan ini berfungsi untuk menahan oli agar tidak bocor dari sekop penyapu. Cincin penahan ini memiliki diameter luar 100 mm dan ketebalan 3 mm
+* Bahan: Stainless Steel
+* HS Code: 73182100
 
-M12 x 120mm Lg Hex Hd HT Bolt BZP
-* HS Code: 73181510
+CLAMP, C: 4IN FORGED ULTRA STRONG DROP STEEL CLAMP BAR TYPE; DAWN; JAW OPENING 100MM; THROAT DEPTH 60MM
+* Definisi: Klem batang baja cor tipe C yang kuat. Klem ini memiliki panjang 4 inci dan memiliki rahang yang dapat dibuka hingga 100 mm. Klem ini terbuat dari baja cor dan memiliki lapisan krom untuk melindunginya dari karat.
+* Bahan: Stainless Steel
+* HS Code: 73194020
 
 """
 
