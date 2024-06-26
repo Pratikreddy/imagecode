@@ -84,7 +84,7 @@ CLAMP, C: 4IN FORGED ULTRA STRONG DROP STEEL CLAMP BAR TYPE; DAWN; JAW OPENING 1
 """
 
 # Initialize the products list (empty for now)
-products = []
+#products = []
 
 # Streamlit app setup
 st.set_page_config(page_title="HS Code Lookup System", layout="wide")
@@ -142,6 +142,6 @@ for message in st.session_state.chat_history:
 st.button("Send", on_click=send_message)
 
 # Display product details (empty for now)
-st.write("## Product Catalog")
-st.write("### Select a product from below and refer to it in the chat (Reference Only):")
-product_var = st.selectbox("Select Product (Reference Only):", ["No products available"])
+#st.write("## Product Catalog")
+#st.write("### Select a product from below and refer to it in the chat (Reference Only):")
+#product_var = st.selectbox("Select Product (Reference Only):", ["No products available"])
