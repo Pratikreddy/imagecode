@@ -181,7 +181,7 @@ def process_prompt_openai(system_prompt, user_prompt, image_path=None):
                 "content": [
                     {
                         "type": "text",
-                        "text": f"system prompt : {system_prompt}, user_prompt : {user_prompt}, expected format : JSON."
+                        "text": f"""system prompt : {system_prompt}, user_prompt : {user_prompt}, expected format : JSON."""
                     },
                     {
                         "type": "image_url",
@@ -192,7 +192,7 @@ def process_prompt_openai(system_prompt, user_prompt, image_path=None):
                 ] if base64_image else [
                     {
                         "type": "text",
-                        "text": f"system prompt : {system_prompt}, user_prompt : {user_prompt}, expected format : JSON."
+                        "text": f"""system prompt : {system_prompt}, user_prompt : {user_prompt}, expected format : JSON."""
                     }
                 ]
             }
@@ -226,7 +226,7 @@ def send_message():
     imgpath = "temp_image.png" if uploaded_file else None
 
     # Combine system message and chat history
-    system_prompt = system_message + " ".join([msg["content"] for msg in st.session_state.chat_history])
+    system_prompt = system_message + " ".join([f"""{msg["content"]}""" for msg in st.session_state.chat_history])
 
     if not user_prompt and not uploaded_file:
         st.write("Please provide a text input, an image, or both.")
@@ -244,7 +244,7 @@ def send_message():
         if uploaded_file:
             st.session_state.chat_history.append({"role": "user", "content": f"Image: {uploaded_file.name}"})
 
-        st.session_state.chat_history.append({"role": "assistant", "content": response})
+        st.session_state.chat_history.append({"role": "assistant", "content": f"""{response}"""})
         st.session_state.input_buffer = ""
 
     st.experimental_rerun()  # Trigger rerun to clear input and update chat history
