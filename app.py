@@ -89,10 +89,10 @@ def process_image_openai(image_path, prompt):
             {"role": "system", "content": prompt},
             {"role": "user", "content": f"data:image/jpeg;base64,{base64_image}"}
         ],
-        "max_tokens": 300,
+        "max_tokens": 5000,
         "n": 1,
         "stop": None,
-        "temperature": 1.0
+        "temperature": 0.7
     }
     response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
     return response.json()
